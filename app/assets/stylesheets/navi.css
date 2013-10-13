@@ -48,7 +48,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	display:block;
 	margin:0;
 	padding:10px 5px 5px 5px;
-	color:#1874CD;
+	color:#666666;
 	background-color:#E8E8E8;
 	text-transform:uppercase;	
 	border: 2px 2px 2px 2px solid #CFCFCF;
@@ -63,7 +63,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 #topnav li a:hover, #topnav li.active a{
 	color:#FFFFFF;
-	background-color:#1874CD;
+	background-color:#FF0000;
 	border-top-color:#FFFF00;
 	}
 	
@@ -80,7 +80,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 	}
 	
 #topnav li li a:hover{
-	color:#1874CD;
+	color:#FF0000;
 	background-color:#E8E8E8;
 	}
 

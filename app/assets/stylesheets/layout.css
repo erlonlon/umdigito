@@ -52,14 +52,14 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	line-height:normal;
 	}
 
-.col0, .col0 a{color:#FFFFFF; background-color:#104E8B;}
-.col1{color:#666666; background-color:#FFFFFF; border-bottom:1px solid #363636;}
-.col2{color:#FFFFFF; background:url(bluecode.jpg); padding:20px 0;}
+.col0, .col0 a{color:#FFFFFF; background-color:#4F4F4F;font-weight:bold;}
+.col1{color:#666666;  background:url(fundo.jpg); }
+.col2{color:#FFFFFF; background:url(fundo.jpg); padding:5px 0;}
 .col2 a{color:#FFFFFF; background-color:#191919;}
 .col3{margin:1px 0; border-top:1px solid #363636; border-bottom:1px solid #363636;}
-.col4{color:#FFFFFF; background-color:#104E8B;}
-.col4 a{color:#9C9C9C; background-color:#104E8B;}
-.col5, .col5 a{color:#999999; background-color:#1B1B1B;}
+.col4{color:#666666;  background:url(fundo.jpg);}
+.col4 a{color:#ff0000;  background:url(fundo.jpg);}
+.col5, .col5 a{color:#FFFFFF; background-color:#4F4F4F;}
 .col4, .col5{font-family: Verdana, Geneva, sans-serif;}
 .col4 h2, .col5 h2{font-family: Georgia, "Times New Roman", Times, serif;}
 
@@ -87,9 +87,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #topline li{
 	display:inline;
-	margin:0 8px 0 0;
+	margin:0 5px 0 0;
 	padding:0 10px 0 0;
-	border-right:1px solid #999999;
+	
 	}
 
 #topline li.last{
@@ -106,6 +106,16 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	overflow:hidden;
 	}
 
+	#topline li a:link, #topline li a:visited, #topline li a:hover{
+		color: #ffffff;
+
+
+}
+#topline li a:hover{
+		color: #ff0000;
+		
+
+}
 /* ----------------------------------------------Header-------------------------------------*/
 
 #header{
@@ -283,7 +293,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #topstory img{
 	margin:0;
 	padding:4px;
-	border:1px solid #C7C5C8;
+	border:0px solid #C7C5C8;
 	}
 
 #topstory .readmore{
@@ -294,7 +304,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #latestnews{
 	display:block;
 	width:630px;
-	margin-bottom:35px;
+	margin-bottom:20px;
 	}
 
 #latestnews .latestnews h2{
@@ -316,17 +326,17 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #latestnews li{
 	margin:0 0 15px 0;
 	padding:0 0 15px 0;
-	border-bottom:1px dotted #666666;
+	border-bottom:0px dotted #666666;
 	}
 
 #latestnews div.imgholder{
 	display:block;
 	float:left;
-	width:125px;
-	height:125px;
+	width:135px;
+	height:155px;
 	margin:0;
 	padding:4px;
-	border:1px solid #666666;
+	
 	}
 
 #latestnews div.latestnews{
@@ -360,8 +370,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	margin:0 0 15px 0;
 	padding:0 0 8px 0;
 	font-size:18px;
-	color:#CCCCCC;
-	background-color:#104E8B;
+	color:#666666;
+	background:url(fundo.jpg);
 	border-bottom:1px dotted #CCCCCC;
 	}
 
