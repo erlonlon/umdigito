@@ -347,6 +347,14 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	padding:0;
 	}
 
+	#latestnews div.latestnewsgeral{
+	display:block;
+	float:right;
+	width:100%;
+	margin:0;
+	padding:0;
+	}
+
 #latestnews p.readmore{
 	display:block;
 	margin-top:10px;

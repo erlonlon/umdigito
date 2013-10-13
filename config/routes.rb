@@ -1,6 +1,10 @@
 Umdigito::Application.routes.draw do
   
-   root :to => 'homes#index'
+  get "comerciais/index"
+
+     root :to => 'homes#index'
+     resources :comerciais
+    
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
