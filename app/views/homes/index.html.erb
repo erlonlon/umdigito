@@ -3,7 +3,7 @@
       <div id="topstory">
         <h2>Automação Comercial</h2>
         <ul>
-          <li><%= image_tag '1312582664_catalogo.jpg',:size => "190x140" %>
+          <li><%= link_to administradores_path do %> <%= image_tag '1312582664_catalogo.jpg',:size => "190x140" %><% end %>
             <p>O melhor sistema para controle físico e financeiro para sua empresa.<br>
 Atende comércio em geral.<br>
 Módulos específicos para: Indústrias, Prestadores de Serviços,  Supermercados<br>
@@ -13,7 +13,7 @@ Comércio em geral: Atende a empresas de pequeno porte em todos os ramos de com�
 </p>
             <p class="readmore"><%= link_to  administradores_path do %>Continue Lendo &raquo;<% end %></p>
           </li>
-          <li><%= image_tag '1312590567_catalogo.jpg',:size => "190x140" %>
+          <li><%= link_to  comerciais_path do %><%= image_tag '1312590567_catalogo.jpg',:size => "190x140" %><% end %>
              <p>Modernidade e eficiência em automação comercial.<br>
 
 Permite a emissão de cupom fiscal e processar todas as funções pertinentes a essa função, adequadas ao que orienta a legislação ER-PAF-ECF.<br>
@@ -24,7 +24,7 @@ Indicado para pequenas e micro empresas de comércio em geral.<br>
 Lojas de informática, comércio de tintas, cosmésticos e perfumarias, confecções, calçados, papelaria, bicicletarias, auto elétricas, lojas de cd, livrarias, joalherias, lojas de conveniência, lojas de móveis, mercadinhos, etc.<br></p>
             <p class="readmore"><%= link_to  comerciais_path do %>Continue Lendo &raquo;<% end %></p>
           </li>
-          <li class="last"><%= image_tag '1312589759_catalogo.jpg',:size => "190x140" %>
+          <li class="last"><%= link_to  gerenciais_path do %><%= image_tag '1312589759_catalogo.jpg',:size => "190x140" %><% end %>
            <p>O gerente que sua empresa estava esperando.<br>
 
 Atende comércio em geral e modulos especificos, sem custo adicional!
